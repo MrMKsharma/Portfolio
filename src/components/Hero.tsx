@@ -6,7 +6,7 @@ import { ArrowDown } from 'lucide-react';
 const Hero: React.FC = () => {
   // Simple typing effect for the role text
   useEffect(() => {
-    const roles = ['Full Stack Developer', 'Cloud Engineer', 'Ethical Hacker'];
+    const roles = ['Backend Developer', 'Cloud Engineer', 'DevOps Specialist', 'AI Enthusiast'];
     const roleElement = document.getElementById('role-text');
     let currentRoleIndex = 0;
     let currentCharIndex = 0;
@@ -63,8 +63,7 @@ const Hero: React.FC = () => {
             <span className="inline-block w-0.5 h-5 bg-accent ml-1 animate-pulse-light"></span>
           </div>
           <p className="text-foreground/80 mb-8 max-w-md leading-relaxed animate-fade-in" style={{ animationDelay: '600ms' }}>
-            I create engaging digital experiences with clean code and thoughtful design.
-            Passionate about crafting interfaces that are both beautiful and functional.
+            Motivated DevOps and Backend Engineer passionate about cloud technologies, automation, scalable infrastructure, and AI-powered development workflows. Experienced in AWS, Docker, Kubernetes, Terraform, CI/CD, and modern backend development using Go and Python.
           </p>
           <div className="flex space-x-4 animate-fade-in" style={{ animationDelay: '800ms' }}>
             <Button onClick={scrollToProjects} className="group">
@@ -83,7 +82,7 @@ const Hero: React.FC = () => {
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-primary/10 backdrop-blur-sm flex items-center justify-center">
               <div className="w-60 h-60 md:w-76 md:h-76 rounded-full overflow-hidden border-4 border-background">
                 <img
-                  src="manish_photo.jpg"
+                  src="Manish_Sharma_profile_pic.png"
                   alt="Manish Sharma"
                   className="w-full h-full object-cover"
                 />
